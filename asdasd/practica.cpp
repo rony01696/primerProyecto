@@ -40,7 +40,7 @@ int main() {
 }
 */
 
-
+/*
 
 //EJERCICIO 2
 
@@ -59,5 +59,48 @@ int inverso(){
 	return c;
 	cout << c << endl;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+//EJERCICOI 4
+/*
+int main(){
+
+    int a;
+    int b;
+    int c=0;
+    int d=1;
+    cin>>a>>endl;
+
+    for (int i=1; i<=a; i++){
+
+        b=c+d;
+        c=d;
+        d=b;
+        cout<<b<<endl;
+
+    }
+
+    return 0;
+}
+
+*/
+
+
 
 
