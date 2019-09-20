@@ -61,16 +61,27 @@ int inverso(){
 }
 
 
+//EJERCICIO 3
+
+
+int potencia(int base, int exp){
+
+    if (exp==1)
+        return base;
+
+    return base*potencia(base, exp-1);
+}
+
+int main(){
+
+    cout<<potencia(4,3);
 
 
 
+    return 0;
 
 
-
-
-
-
-
+}
 
 
 
